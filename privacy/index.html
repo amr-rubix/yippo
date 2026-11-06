@@ -32,7 +32,7 @@
 <main>
 <header><img src="../icon.png" alt=""><a href="../">Yippo</a></header>
 <h1>Yippo Privacy Policy</h1>
-<p><em>Last updated: 5 November 2026</em></p>
+<p><em>Last updated: 6 November 2026</em></p>
 <p>Yippo is a family chore app. Parents create chores for their children, children check them
 off, and parents approve them. This policy explains what we collect, why, and how to delete it.</p>
 <p><strong>The short version:</strong> we collect only what the app needs to work. We show no ads, do no
@@ -40,7 +40,12 @@ tracking, use no analytics tools, and never sell or share personal data for mark
 can delete the whole family&#39;s data at any time from inside the app.</p>
 <h2>Who uses Yippo</h2>
 <ul>
-<li><strong>Parents</strong> create an account with an email address and password.</li>
+<li><strong>Parents</strong> create an account with an email address and password. A parent can invite up to
+three more grown-ups (for example a second parent or a grandparent) with a one-time code; each
+creates their own account and can see and manage the family&#39;s kids, chores, photos and voice
+notes.</li>
+<li>A parent can also hand their own phone to a child (&quot;kid mode&quot;). The phone then shows only that
+child&#39;s chores until the parent enters their 4-digit PIN.</li>
 <li><strong>Children</strong> never create an account and never give an email address or phone number. A
 parent creates the child&#39;s profile and connects the child&#39;s device with a one-time code or
 QR code. Children can only use Yippo once a parent has set them up.</li>
@@ -50,6 +55,9 @@ QR code. Children can only use Yippo once a parent has set them up.</li>
 <ul>
 <li>Email address and password (the password is stored only in hashed form).</li>
 <li>The parent&#39;s display name.</li>
+<li>A 4-digit parent PIN for leaving kid mode, stored only in scrambled (hashed) form.</li>
+<li>Optional praise for a child: a sticker and/or a short voice note (up to 20 seconds) recorded
+by the parent. The microphone is used only while a parent holds the record button.</li>
 </ul>
 <p><strong>About children (entered by the parent, or by the child in the app)</strong></p>
 <ul>
@@ -60,15 +68,20 @@ QR code. Children can only use Yippo once a parent has set them up.</li>
 </ul>
 <p><strong>From devices</strong></p>
 <ul>
-<li>A push notification token, so a child&#39;s device can be told when a parent asks for a chore to
-be done again.</li>
+<li>A push notification token, so a child&#39;s device can be told when a chore is approved or needs
+doing again, or when a parent sends praise, and so parents can be told when a child finishes a
+chore or asks for a reward.</li>
 <li>An anonymous sign-in identifier for each child&#39;s device.</li>
 </ul>
+<p>We also count anonymous totals from the app&#39;s own database (for example how many families
+finished a chore today) to understand whether Yippo is working. These counts contain no names
+and are not shared with anyone.</p>
 <p>We do not collect location, contacts, advertising identifiers or the child&#39;s photo library.
 The camera is used only when someone chooses to take a photo.</p>
 <h2>Who can see the data</h2>
 <ul>
-<li>Photos, selfies and activity are visible only to the parents and children in the same family.</li>
+<li>Photos, selfies, voice notes and activity are visible only to the grown-ups and children in the
+same family. Each child sees only their own chores and praise, not their siblings&#39;.</li>
 <li>Yippo has no public profiles, chat or social features.</li>
 </ul>
 <h2>Services we use to run Yippo</h2>
@@ -77,15 +90,17 @@ The camera is used only when someone chooses to take a photo.</p>
 <li><strong>Google Cloud Text-to-Speech</strong> turns chore titles and descriptions into the natural voice that
 reads chores aloud. Only the chore text is sent: no names, photos or account details. The
 resulting audio is stored on our servers.</li>
-<li><strong>Expo push service and Apple Push Notification service</strong> deliver notifications to children&#39;s
-devices. They receive the device&#39;s push token and the notification text, for example the
-chore title and any note the parent wrote.</li>
+<li><strong>Expo push service and Apple Push Notification service</strong> deliver notifications to parents&#39; and
+children&#39;s devices. They receive the device&#39;s push token and the notification text, for
+example a child&#39;s first name and the chore title, or a note the parent wrote.</li>
 </ul>
 <p>These providers process data only to provide their service to us.</p>
 <h2>How long we keep data</h2>
 <p>We keep a family&#39;s data while their account exists. When a parent deletes the account
 (the <strong>Delete account</strong> button on the parent home screen), we permanently delete the family&#39;s chores,
-history, photos, selfies and every parent and child login. Voice clips made from that family&#39;s
+history, photos, selfies, voice notes and every child login, plus the owner&#39;s own login. Other
+grown-ups who were invited lose access to the family; their own logins stay until they delete
+them. An invited grown-up who deletes their account removes only their own login. Voice clips made from that family&#39;s
 custom chores are deleted as well.</p>
 <p>A parent can also remove a child&#39;s selfie at any time, and can delete individual chores and
 rewards.</p>
